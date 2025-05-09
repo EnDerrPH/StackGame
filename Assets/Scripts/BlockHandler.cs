@@ -4,18 +4,17 @@ using UnityEngine.Events;
 public class BlockHandler : MonoBehaviour
 {
     [SerializeField] Rigidbody _rb;
+    [SerializeField] Renderer _renderer;
     float _blockSpeed = 1.5f;
     float _moveRange = 1.5f; 
     bool _isHorizontal;
     bool _isMoving;
     Vector3 _startPos;
-    Renderer _renderer;
     public UnityEvent OnGameOverEvent, OnStackedEvent;
 
     void Start()
     {
        SetComponents();
-       RandomizeColor();
     }
 
     void Update()
@@ -23,9 +22,24 @@ public class BlockHandler : MonoBehaviour
         ToggleMovement();
     }
 
+    public void SetBlockMaterial(Material material)
+    {
+        _renderer.material = material;
+    }
+
+    public void SetRenderer()
+    {
+        _renderer = GetComponent<Renderer>();
+    }
+
     public void SetBlockMovement(bool isHorizonal)
     {
         _isHorizontal = isHorizonal;
+    }
+
+    public void SetIsMoving(bool isMoving)
+    {
+        _isMoving = isMoving;
     }
 
     public void FreezePosition()
@@ -36,7 +50,6 @@ public class BlockHandler : MonoBehaviour
     private void SetComponents()
     {
         _startPos = transform.position;
-        _renderer = GetComponent<Renderer>();
         _isMoving = true;
     }
 
@@ -62,11 +75,6 @@ public class BlockHandler : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, transform.position.y, _startPos.z + offset);
         }
-    }
-
-    private void RandomizeColor()
-    {
-        _renderer.material.color = new Color(Random.value, Random.value, Random.value);
     }
     
     void OnCollisionEnter(Collision collision)

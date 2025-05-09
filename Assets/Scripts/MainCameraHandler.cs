@@ -4,6 +4,7 @@ public class MainCameraHandler : MonoBehaviour
 {
     float _targetYposition;
     float _moveSpeed = 1.5f;
+    const float _zoomInValue = .02f;
 
     void Start()
     {
@@ -13,6 +14,12 @@ public class MainCameraHandler : MonoBehaviour
     void Update()
     {
         MoveCamera();
+    }
+
+    public void MoveUp()
+    {
+        _targetYposition = transform.position.y + 0.07f;
+        ZoomIn();
     }
 
     private void MoveCamera()
@@ -25,8 +32,11 @@ public class MainCameraHandler : MonoBehaviour
         }
     }
 
-    public void MoveUp()
+    private void ZoomIn()
     {
-        _targetYposition = transform.position.y + .1f;
+        Vector3 pos = transform.position;
+        pos.x += _zoomInValue; 
+        pos.z +=_zoomInValue; // -2 becomes -2.01
+        transform.position = new Vector3(pos.x, transform.position.y, pos.z);
     }
 }

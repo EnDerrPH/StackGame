@@ -1,0 +1,527 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32712 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Unity\6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/63945/Desktop/Cav/TurnBase/Stack Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50619
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/63945/Desktop/Cav/TurnBase/Stack Game
+C:/Users/63945/Desktop/Cav/TurnBase/Stack Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17340]  Target information:
+
+Player connection [17340]  * "[IP] 192.168.100.18 [Port] 0 [Flags] 2 [Guid] 3956347938 [EditorId] 3956347938 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M2JJPP3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17340] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17340] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Unity/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/63945/Desktop/Cav/TurnBase/Stack Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.7216
+Initialize mono
+Mono path[0] = 'C:/Unity/6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Unity/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003712 seconds.
+- Loaded All Assemblies, in  0.392 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 248 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.633 seconds
+Domain Reload Profiling: 1023ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (138ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (135ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (634ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (337ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.180 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.533 seconds
+Domain Reload Profiling: 2709ms
+	BeginReloadAssembly (367ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (717ms)
+		LoadAssemblies (475ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (349ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (184ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1224ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (302ms)
+			ProcessInitializeOnLoadAttributes (766ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 14.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5939 unused Assets / (5.6 MB). Loaded Objects now: 6722.
+Memory consumption went from 184.8 MB to 179.2 MB.
+Total: 20.551700 ms (FindLiveObjects: 3.790500 ms CreateObjectMapping: 2.186200 ms MarkObjects: 9.786900 ms  DeleteObjects: 4.786500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2088.489201 seconds.
+  path: Assets/Scripts/GameHandler.cs
+  artifactKey: Guid(ffc9bd4db289e9545916fe45573d398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameHandler.cs using Guid(ffc9bd4db289e9545916fe45573d398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43c1178e23891ba5469c22bc18cf2e50') in 0.01896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/BlockHandler.cs
+  artifactKey: Guid(3b6d7518175d0f148ab1f6d9f0a5ea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BlockHandler.cs using Guid(3b6d7518175d0f148ab1f6d9f0a5ea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0135da3a7f30c5b501274ef49398957') in 0.0007818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5344.252971 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures
+  artifactKey: Guid(07a6929d3e5614146a7abb90c8f103f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures using Guid(07a6929d3e5614146a7abb90c8f103f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf934b82f0277cb9eba4b056c948a78e') in 0.0119361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.713406 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures
+  artifactKey: Guid(7c5927192dc9bac47bff9abd2bfad271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures using Guid(7c5927192dc9bac47bff9abd2bfad271) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83ee2ac2863de3253fdca36065dbde3d') in 0.0007624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.440053 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials
+  artifactKey: Guid(be4a79b8d4889a84ba17d42e930993c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials using Guid(be4a79b8d4889a84ba17d42e930993c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a5324121fd715d3092afbd880b40838') in 0.0006398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032516 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_2_3_Wood.mat
+  artifactKey: Guid(e2782bd09fb749e4f8c457cb9c8cc6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_2_3_Wood.mat using Guid(e2782bd09fb749e4f8c457cb9c8cc6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e58f3a928d8c6020e3ab1a2f8436c21') in 0.8807899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_16_2_Sand.mat
+  artifactKey: Guid(49f3385eb1c319941be8623439f1eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_16_2_Sand.mat using Guid(49f3385eb1c319941be8623439f1eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97aa10d9ffd7260b87293aca2a99db63') in 0.015487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_34_2_Tiles.mat
+  artifactKey: Guid(ebabfdf81fc72414f9921cfe2ed4b652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_34_2_Tiles.mat using Guid(ebabfdf81fc72414f9921cfe2ed4b652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8165230b9a9149e1910ddb46fa5cdf9b') in 0.0204097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_58_1_Surface.mat
+  artifactKey: Guid(e94c7625cd2e80d4e8fd19b24fc89d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_58_1_Surface.mat using Guid(e94c7625cd2e80d4e8fd19b24fc89d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3724f51b43a92504df80c5ee4a635745') in 0.0483494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_49_5_Rocks.mat
+  artifactKey: Guid(67436367136736141b5c7e131555c4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_49_5_Rocks.mat using Guid(67436367136736141b5c7e131555c4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd453a0a648fe6eff4d2b66766283b30') in 0.0139066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_81_3_Sci-fi.mat
+  artifactKey: Guid(d12d326c7ff660a40aed23b21d98c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_81_3_Sci-fi.mat using Guid(d12d326c7ff660a40aed23b21d98c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b209c6e37ea9ea3e33c92fa0e747fdbe') in 0.0128413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_26_2_Cliffs.mat
+  artifactKey: Guid(0c2d13c3615510e4a8debaef5c39c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_26_2_Cliffs.mat using Guid(0c2d13c3615510e4a8debaef5c39c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bf8754a493f51fe6f315a928d338f18') in 0.0115462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_35_3_Lava.mat
+  artifactKey: Guid(b7bcd7c6b3acb3241b0d5af1a358b19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_35_3_Lava.mat using Guid(b7bcd7c6b3acb3241b0d5af1a358b19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e21ebfc75244bc640dee0595e27bf4e') in 0.0157805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_18_2_Metals.mat
+  artifactKey: Guid(118675f9ee3b22c43a2f8841d6206b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_18_2_Metals.mat using Guid(118675f9ee3b22c43a2f8841d6206b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f79486c31dcfe1a073aca6d9b241b52') in 0.0126925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_36_5_Water.mat
+  artifactKey: Guid(490c25b2fda35fc4582a9582c4179ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_36_5_Water.mat using Guid(490c25b2fda35fc4582a9582c4179ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88f92f99609b35e37058a03dee0de3af') in 0.013875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.756147 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Base_Color.png
+  artifactKey: Guid(9c4040e552b4ecf4c80b8f1c96d2aca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Base_Color.png using Guid(9c4040e552b4ecf4c80b8f1c96d2aca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b8ae9474d4582483f1d74ce77e20a20') in 0.0277547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Base_Color.png
+  artifactKey: Guid(b198aa877543bae4390e4cc0e72be934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Base_Color.png using Guid(b198aa877543bae4390e4cc0e72be934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0b3eabcb870c194cd051211eb9a4ee9') in 0.0459899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_35_1_Lava_Emissive.png
+  artifactKey: Guid(b35315e0a87bc50409157914c2aa909c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_35_1_Lava_Emissive.png using Guid(b35315e0a87bc50409157914c2aa909c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4102c74b99d48181c1b919d79bb807c') in 0.0193861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Ambient_Occlusion.png
+  artifactKey: Guid(95abdcc1842ca7d4d8e8e009e0f4142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Ambient_Occlusion.png using Guid(95abdcc1842ca7d4d8e8e009e0f4142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abdba7e39b30dd43f73d4ead8b7c8bb0') in 0.0171392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Base_Color.png
+  artifactKey: Guid(baf23df249cc3974fafd9a18167df712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Base_Color.png using Guid(baf23df249cc3974fafd9a18167df712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4f0ab41e8d31ace7180d3efa61d8502') in 0.0188026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Height.png
+  artifactKey: Guid(218ed969607ac4644b0b1c66b7a81be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Height.png using Guid(218ed969607ac4644b0b1c66b7a81be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d999378dc53affa0d7a8001752023ad') in 0.0174302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Roughness.png
+  artifactKey: Guid(37523e5dd9dadd64d95c93dbdaf265ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Roughness.png using Guid(37523e5dd9dadd64d95c93dbdaf265ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e6389ec791d1e2d82a86833c5c7ce17') in 0.0245222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Roughness.png
+  artifactKey: Guid(045c8214ce9906f41ba2c7d2f5d500f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Roughness.png using Guid(045c8214ce9906f41ba2c7d2f5d500f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c36fc63a5a3836c6861098291a7db79') in 0.0179511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Height.png
+  artifactKey: Guid(fb53d5a0d6094924abc1d41f07f78d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Height.png using Guid(fb53d5a0d6094924abc1d41f07f78d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7232172df0e8384d277d9ea608df3f5a') in 0.0160836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Roughness.png
+  artifactKey: Guid(830907b47b00c374bae896897838d09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Roughness.png using Guid(830907b47b00c374bae896897838d09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b6621260698a550f292ac1055e5a52c') in 0.0202719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Normal.png
+  artifactKey: Guid(27db48b727b8291479c50e33cd6e436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Normal.png using Guid(27db48b727b8291479c50e33cd6e436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acbb3705098e1783a0977c37298e3b46') in 0.0231127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Roughness.png
+  artifactKey: Guid(04c0fe5e0cf253a48a1fbf82b9666e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Roughness.png using Guid(04c0fe5e0cf253a48a1fbf82b9666e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f1a15eadb06705e07876b077ff09cc3') in 0.0209882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Normal.png
+  artifactKey: Guid(89afee2ff7c99f14fb6b93db354adbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Normal.png using Guid(89afee2ff7c99f14fb6b93db354adbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc81751d1d91fc7b0700272d9b4850f8') in 0.0158799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Height.png
+  artifactKey: Guid(e750983d767f3e546a43fc035a7d2d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Height.png using Guid(e750983d767f3e546a43fc035a7d2d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '440833751888aceefbcbd340ca309c7a') in 0.0138713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Normal.png
+  artifactKey: Guid(a464b9a07a241e942ab6ba947dc34463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Normal.png using Guid(a464b9a07a241e942ab6ba947dc34463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55fa3ae10ee7fe515a04f570994a8aa2') in 0.019519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Roughness.png
+  artifactKey: Guid(b83f09f3e1d5cd14fadd54b3226e6e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Roughness.png using Guid(b83f09f3e1d5cd14fadd54b3226e6e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90eb17b164da7c0604ed5bd7baecafa5') in 0.0162755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Normal.png
+  artifactKey: Guid(40cfe12abc15c114c9e32d8c0d5670b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Normal.png using Guid(40cfe12abc15c114c9e32d8c0d5670b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd22f2eeabe21e57db63bcdffe4fee519') in 0.015443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Height.png
+  artifactKey: Guid(7f7402220bc187a428c234a4611746f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Height.png using Guid(7f7402220bc187a428c234a4611746f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd44344c593f5dd623b86267353b6dae5') in 0.0127736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Ambient_Occlusion.png
+  artifactKey: Guid(87371d6475acff34aaf1fd4596845388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Ambient_Occlusion.png using Guid(87371d6475acff34aaf1fd4596845388) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '594f8ac2ee4396f81660d34510150875') in 0.013863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.987874 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f80ce2bd6894140432daa0a9cb288908') in 0.0346203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Roughness.png
+  artifactKey: Guid(4b087c98e8296f740a51633c37bccfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Roughness.png using Guid(4b087c98e8296f740a51633c37bccfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e809dbc5c3a8b499d644563adb015ed') in 0.0157628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_100_1_Pixel_Ambient_Occlusion.png
+  artifactKey: Guid(60ee790001468ae42b3abb898be0a0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_100_1_Pixel_Ambient_Occlusion.png using Guid(60ee790001468ae42b3abb898be0a0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '816cc5b77affc9f30fbeec4221409f9f') in 0.0156115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_79_5_Sci-fi_Height.png
+  artifactKey: Guid(fae2412306c75a640ae881ebbc15d67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_79_5_Sci-fi_Height.png using Guid(fae2412306c75a640ae881ebbc15d67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '490dc3aba89b50bac2939035b0e4a228') in 0.0146645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_100_1_Pixel_Height.png
+  artifactKey: Guid(6f7454e7b204846479bf2e5c8869e7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_100_1_Pixel_Height.png using Guid(6f7454e7b204846479bf2e5c8869e7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a072c14a1423dd6ec523a23161f7d677') in 0.0137832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_81_3_Sci-fi_Metallic.png
+  artifactKey: Guid(fe0defe4eaf650a40bb6dcab5dbdfc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_81_3_Sci-fi_Metallic.png using Guid(fe0defe4eaf650a40bb6dcab5dbdfc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69dbe3b7a1781699ceb1e88f92749e1d') in 0.0151958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_79_5_Sci-fi_Base_Color.png
+  artifactKey: Guid(1e103bb5bfee2fc4aabb9e1a0ea6f4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_79_5_Sci-fi_Base_Color.png using Guid(1e103bb5bfee2fc4aabb9e1a0ea6f4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb64fa165ebf20020df1cf1c03332965') in 0.017706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_81_3_Sci-fi_Ambient_Occlusion.png
+  artifactKey: Guid(ab04087547f1dd04d924ca20e04aaa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_81_3_Sci-fi_Ambient_Occlusion.png using Guid(ab04087547f1dd04d924ca20e04aaa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b53c9047c20dca32e3c18b940a21d6c') in 0.0140842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

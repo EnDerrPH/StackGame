@@ -1,7 +1,8 @@
 using System.Collections;
-using System.Diagnostics;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameHandler : MonoBehaviour
 {
@@ -12,40 +13,52 @@ public class GameHandler : MonoBehaviour
     [SerializeField] GameObject _UIPostGame;
     [SerializeField] GameObject _UIInGame;
     [SerializeField] UIGameHandler _UIGameHandler;
-    string _playerName;
+    [SerializeField] List<Material> _materialList = new List<Material>();
+    [SerializeField] GameObject _fog;
+    const float _fogSpeed = 1.5f;
     int _highScore;
     float _yOffset = .3f;
     BlockHandler _currentBlock;
     bool _isHorziontal;
     bool _canTap;
     bool _isGameOver;
+    bool _isFog;
 
     void Start()
     {
         _blockPrefab.transform.localScale = new Vector3(1f,.1f,1f);
         InitializeObjects();
         SetCanTap();
-    }   
+    }
 
     void Update()
     {
+        MoveFog();
         OnScreenTap();
+        GameOverByFog(_previousBlock);
+    }
+
+    private int MaterialIndex()
+    {
+        return Random.Range(0, _materialList.Count);
     }
 
     private void OnScreenTap()
     {
         Scene currentScene = SceneManager.GetActiveScene();
-        if(currentScene.name != "Game" || _UIPostGame.gameObject.activeSelf)
+        if (currentScene.name != "Game" || _UIPostGame.gameObject.activeSelf)
         {
             return;
         }
         if (Input.GetMouseButtonDown(0))
         {
-            if(!_canTap || _isGameOver)
+            if (!_canTap || _isGameOver)
             {
                 return;
             }
+            _isFog = true;
             Rigidbody rb = _currentBlock.GetComponent<Rigidbody>();
+            _currentBlock.SetIsMoving(false);
             rb.useGravity = true;
             StartCoroutine(DelayedSpawn());
             _mainCameraHandler.MoveUp();
@@ -64,6 +77,8 @@ public class GameHandler : MonoBehaviour
         float newYPosition = _platform.transform.localScale.y/ 2;
         Vector3 spawnPosition = new Vector3(0, newYPosition ,0);
         BlockHandler firstBlock = Instantiate(_blockPrefab, spawnPosition, Quaternion.identity);
+        firstBlock.SetRenderer();
+        firstBlock.SetBlockMaterial(_materialList[MaterialIndex()]);
         firstBlock.FreezePosition();
         firstBlock.enabled = false;
         _previousBlock = firstBlock;
@@ -71,10 +86,16 @@ public class GameHandler : MonoBehaviour
         _mainCameraHandler.MoveUp();
     }
 
-    public void SpawnBlock()
+    private void SpawnBlock()
     {
+        if (_isGameOver)
+        {
+            return;
+        }
         SetSpawnPosition();
-        BlockHandler newBlock =  Instantiate(_blockPrefab, SetSpawnPosition(), Quaternion.identity);
+        BlockHandler newBlock = Instantiate(_blockPrefab, SetSpawnPosition(), Quaternion.identity);
+        newBlock.SetRenderer();
+        newBlock.SetBlockMaterial(_materialList[MaterialIndex()]);
         newBlock.SetBlockMovement(_isHorziontal);
         newBlock.OnGameOverEvent.AddListener(GameOver);
         newBlock.OnStackedEvent.AddListener(SetCanTap);
@@ -157,13 +178,37 @@ public class GameHandler : MonoBehaviour
         return spawnPosition;
     }
 
+    private void MoveFog()
+    {
+        if (!_isFog || _isGameOver)
+        {
+            return;
+        }
+        float targetFogY = _fog.transform.position.y + 0.03f;
+        float newFogY = Mathf.Lerp(_fog.transform.position.y, targetFogY, Time.deltaTime * _fogSpeed);
+        _fog.transform.position = new Vector3(_fog.transform.position.x, newFogY, _fog.transform.position.z);
+    }
+
     private void GameOver()
     {
         _UIInGame.gameObject.SetActive(false);
         _UIPostGame.gameObject.SetActive(true);
         _UIGameHandler.UpdateHighScore(_highScore.ToString());
+        _UIGameHandler.ActivateDarkBG();
         GameManager.Instance.GetPlayerData().HighScore = _highScore;
         _isGameOver = true;
+    }
+
+    private void GameOverByFog(BlockHandler blockHandler)
+    {
+        if (_fog == null)
+        {
+            return;
+        }
+        if (_fog.transform.position.y > blockHandler.gameObject.transform.position.y + .1f)
+        {
+            GameOver(); 
+        }
     }
 
     IEnumerator DelayedSpawn()

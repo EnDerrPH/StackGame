@@ -12,6 +12,7 @@ public class UIGameHandler : UIBaseScript
     [SerializeField] Button _mainMenuButton;
     [SerializeField] TMP_Text _highScoreInGame;
     [SerializeField] TMP_Text _highScorePostGame;
+    [SerializeField] GameObject _darkBG;
     [SerializeField] GameObject _inputName;
     [SerializeField] TMP_InputField _InputField;
     [SerializeField] GameObject _scrollView;
@@ -48,7 +49,12 @@ public class UIGameHandler : UIBaseScript
     public void UpdateHighScore(string score)
     {
         _highScoreInGame.text = score;
-        _highScorePostGame.text = "HIGHSCORE: " + score;
+        _highScorePostGame.text = "SCORE: " + score;
+    }
+
+    public void ActivateDarkBG()
+    {
+        _darkBG.SetActive(true);
     }
 
     private void PlayerAgain()
@@ -56,7 +62,7 @@ public class UIGameHandler : UIBaseScript
         SceneManager.LoadScene("Game");
     }
 
-     void OnConfirm()
+    void OnConfirm()
     {
         int charCount = _InputField.text.Length;
         if(charCount <= _minimumCharacterName)
