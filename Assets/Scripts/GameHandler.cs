@@ -21,7 +21,7 @@ public class GameHandler : MonoBehaviour
     BlockHandler _currentBlock;
     bool _isHorziontal;
     bool _canTap;
-    bool _isGameOver;
+    [SerializeField] bool _isGameOver;
     bool _isFog;
 
     void Start()
@@ -45,6 +45,10 @@ public class GameHandler : MonoBehaviour
 
     private void OnScreenTap()
     {
+        if (_isGameOver)
+        {
+            return;
+        }
         Scene currentScene = SceneManager.GetActiveScene();
         if (currentScene.name != "Game" || _UIPostGame.gameObject.activeSelf)
         {
@@ -201,7 +205,7 @@ public class GameHandler : MonoBehaviour
 
     private void GameOverByFog(BlockHandler blockHandler)
     {
-        if (_fog == null)
+        if (_fog == null || _isGameOver)
         {
             return;
         }
